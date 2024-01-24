@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+html, body{
+    background-color:rgb(242, 245, 151);
+    font-size:1rem;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+header{
+    min-height:60px;
+    width: 100%;
+    font-size:1.2rem;
+    text-align: center;
+    margin-top:20px;
+    padding:10px;
+    color:#0A1D56;
+    border-bottom:2px solid #0A1D56;
+}
+
+
+.menu-section{
+    width:500px;
+    min-height:100vh;
+    border-right:1px solid #ccc;
+    display:flex;
+    flex-direction: column;
+    padding:10px  0 0 0px;
+    font-size:14px;
+    
+}
+
+.menu-section ul li{
+    list-style-type:none;
+}
+
+.menu-section p{ 
+    font-size:2rem;
+    margin-bottom:20px;
+    padding-left:10px;
+    height:40px;
+    font-weight:100;
+    color:#D04848;
+    font-weight:700;
+}
+
+.menu-section ul li{
+    padding:10px;
+    border:1px solid #ccc;
+    background-color:#492E87;
+    color:white;
+}
+
+.menu-section ul li:hover{
+    background-color: #0A1D56 ;
+    transition:0.2s ease-in-out;
+}
+
+
+.container{
+    display:flex;
+}
+
+.article-section{
+    max-width:1100px;
+    font-size:15px;
+    padding:30px;
+}
+
+.article-section h3{
+    font-size:25px;
+    border-bottom:1px solid black;
+}
+
+.article-section article{
+    margin-top:20px;
+}
+
+.article-section ul{
+    margin-top:20px;
+}
+
+li{
+    list-style-position: inside;
+}
+
+/* #What-you-should-know{
+    margin-top:80px;
+} */
+
+.content{
+    margin-top:80px;
+}
+
+.background{
+    background-color:#37B5B6;
+    padding:20px;
+    line-height:3;
+}
+
